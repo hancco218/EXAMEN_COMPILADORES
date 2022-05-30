@@ -1,0 +1,27 @@
+{
+  int i; int j; float v; float x; float[100] a;
+  while( true ){
+    do i = i+1; while( a[i] < v);
+    do j = j-1; while( a[j] > v);
+    if( i >= j ) break;
+    x = a[i]; a[i] = a[j]; a[j] = x;
+  }
+  for(i<=0; i <= 10; i<=10){
+    i = 1;
+  }
+}
+{
+  int i; int j; float v; float x; float[100] a;
+  while( true ){
+    comen i = 7;
+    do i = i+1; while( a[i] < v);
+    do j = j-1; while( a[j] > v);
+    if( i >= j ) break;
+    x = a[i]; a[i] = a[j]; a[j] = x;
+  }
+  for(i=0; i < 10; i = i+10){ comen ESTO ES UN FOR
+    i = 1;
+  }
+  comen i = 7;
+}
+
